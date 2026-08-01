@@ -1,8 +1,28 @@
 aid: smartex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smartex.png
 name: Smartex
-description: Smartex is a company surfaced as a portfolio company of dcvc, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Smartex is an AI and computer-vision company founded in 2018 and headquartered in Porto, Portugal
+  that builds hardware-enabled software for the textile manufacturing industry. Its systems inspect
+  fabric in real time on the knitting machine to detect defects at the source, cutting textile waste,
+  CO2 emissions, water, energy and rework. The product suite spans CORE (a machine-vision inspection
+  add-on for circular knitting machines), FACT (an all-in-one digital factory-management platform for
+  production visibility and quality control) and LOOP (supply-chain communication and traceability).
+  Smartex is backed by Lightspeed Venture Partners, DCVC, Tony Fadell's Build Collective, H&M Group,
+  SOSV/HAX, Spider Capital, Momenta Ventures and Fashion for Good. It does not currently publish a
+  public developer API, SDK, or developer portal; customer access is through the FACT platform login.
+  This profile was surfaced from the VC-portfolio pipeline and enriched from Smartex's public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/smartex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +31,46 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-headquarters: Porto, Portugal
+x-founded: '2018'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Textiles
+- Manufacturing
+- Computer Vision
+- Artificial Intelligence
+- Quality Control
+- Sustainability
+- Industrial IoT
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/smartex-domain-security.yml
+- type: Website
+  url: https://www.smartex.ai
+- type: Blog
+  url: https://www.smartex.ai/blog
+- type: Press
+  url: https://www.smartex.ai/press
+- type: Login
+  url: https://fact.smartex.ai/
+- type: Support
+  url: https://www.smartex.ai/contact
+- type: TermsOfService
+  url: https://www.smartex.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.smartex.ai/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
