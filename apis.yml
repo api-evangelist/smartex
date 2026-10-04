@@ -51,7 +51,7 @@ tags:
 - Company
 - Textiles
 - Manufacturing
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Quality Control
 - Sustainability
@@ -67,6 +67,7 @@ tags_raw:
 - Sustainability
 - Industrial IoT
 - Hardware
+- Computer-Vision
 apis: []
 common:
 - type: DomainSecurity
